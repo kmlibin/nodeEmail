@@ -19,6 +19,7 @@ const sendEmailEthereal = async (req, res) => {
     subject: 'hello',
     text: 'hello world with node.js'
   })
+  //normally wouldn't send back to user, this is just so i can see 
   res.json(info);
 };
 
